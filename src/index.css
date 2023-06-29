@@ -21,3 +21,9 @@
   background-color: #666e75;
   border-radius: 5px;
 }
+
+
+
+.glow {
+  box-shadow: rgba(255, 0, 140, 0.521) 0 0 90px 23px;
+}
