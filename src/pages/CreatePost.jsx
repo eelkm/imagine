@@ -96,10 +96,10 @@ const CreatePost = () => {
   return (
     <section className='max-w-7xl mx-auto'>
       <div>
-        <h1 className='font-extrabold text-[#222328] text-[32px]'>
+        <h1 className='font-extrabold text-white text-[32px]'>
           Create
         </h1>
-        <p className='mt-2 text-[#666e75] text-[16px] max-w-[500px]'>
+        <p className='mt-2 text-[#cacaca] text-[16px] max-w-[500px]'>
           Create imaginative and visually stuning images trough DALL-E AI and share them with the community.
         </p>
       </div>
@@ -130,8 +130,8 @@ const CreatePost = () => {
         </div>
 
         <div className='mt-10'>
-          <p className='mt-2 text-[#666e75] text-[14px]'>Once you have created the image you want, you can share it with others in the community</p>
-          <button type='submit' className='mt-3 text-white bg-[#000000] font-medium rounded-md text-sm w-full sm:w-auto px-5 py-2.5 text-center'>
+          <p className='mt-2 text-[#b4b4b4] text-[14px]'>Once you have created the image you want, you can share it with others in the community</p>
+          <button type='submit' className='mt-3 text-white bg-blue-500 hover:bg-blue-600 font-medium rounded-md text-sm w-full sm:w-auto px-5 py-2.5 text-center'>
             {loading ? 'Sharing...' : 'Share with the community'}
           </button>
         </div>

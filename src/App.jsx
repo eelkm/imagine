@@ -8,12 +8,12 @@ function App() {
 
   return (
     <BrowserRouter>
-      <header className='w-full flex justify-between items-center bg-white sm:px-8 px-4 py-4 border-b border-b-[#e6ebf4]'>
+      <header className='w-full flex justify-between items-center bg-stone-950 text-white sm:px-8 px-4 py-4'>
         <Link to='/'>
           <div className='flex'>
-            <img src={logo} alt='logo' className='w-10 object-contain' />
-            <div className='p-1 pl-2 text-2xl font-bold'>
-              Imagine<span className='text-xs font-extralight'>.edgarsapinis.dev</span>
+            {/* <img src={logo} alt='logo' className='w-10 object-contain' /> */}
+            <div className='p-1 pl-2 text-4xl font-bold ml-[calc(50vw-150px)]'>
+              Imagine :)
             </div>
           </div>
 
@@ -24,7 +24,7 @@ function App() {
         </Link>
       </header>
 
-      <main className='sm:p-8 px-4 py-8 w-full bg-[#ffffff] min-h-[calc(100vh-73px)]'>
+      <main className='sm:p-8 px-4 py-8 w-full bg-stone-950 min-h-[calc(100vh-73px)]'>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/create-post' element={<CreatePost />} />
